@@ -13,18 +13,20 @@ const App: React.FC = () => (
     options={[
       {
         label: <span>manager</span>,
-        title: 'manager',
+        title: '人保小时',
         options: [
-          { label: <span>Jack</span>, value: 'Jack' },
-          { label: <span>Lucy</span>, value: 'Lucy' },
+          { label: <span>Jack</span>, value: '大风小时' },
+          { label: <span>Lucy</span>, value: '暴雨小时' },
         ],
       },
       {
         label: <span>engineer</span>,
-        title: 'engineer',
+        title: '人保日',
         options: [
-          { label: <span>Chloe</span>, value: 'Chloe' },
-          { label: <span>Lucas</span>, value: 'Lucas' },
+          { label: <span>Chloe</span>, value: '大风日' },
+          { label: <span>Lucas</span>, value: '暴雨日' },
+          { label: <span>Lucas</span>, value: '霜冻日' },
+
         ],
       },
     ]}
